@@ -1,0 +1,354 @@
+[
+
+   {
+      "$ItemType": "Furniture",
+      "ID": "Wine and Cheese Platter",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "assets/platters.png:0",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "assets/platters.png:1",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "assets/platters.png:2",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 10,
+      "Cost": 100,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.barfurniture/Wine and Cheese Platter"
+      }
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Tasting Tray",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "assets/trays.png:0",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "assets/trays.png:1",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "assets/trays.png:2",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "assets/trays.png:3",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "assets/trays.png:4",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "assets/trays.png:5",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "assets/trays.png:6",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "assets/trays.png:7",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "assets/trays.png:8",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 10,
+      "Cost": 100,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.barfurniture/Tasting Tray"
+      }
+   },
+
+
+   {
+      "$ItemType": "Furniture",
+      "ID": "Tabletop Wine Rack",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "assets/wine_rack_small.png:0",
+            "DisplaySize": { "X": 2, "Y": 1 },
+            "CollisionHeight": 1
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 200,
+      "Cost": 500,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.barfurniture/Tabletop Wine Rack"
+      }
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Freestanding Wine Rack",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "assets/wine_rack_large.png:0",
+            "DisplaySize": { "X": 3, "Y": 3 },
+            "CollisionHeight": 1
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 10,
+      "Cost": 500,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.barfurniture/Freestanding Wine Rack"
+      }
+   },
+    {
+      "$ItemType": "Furniture",
+      "ID": "Home Bar",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "assets/bar.png:0",
+            "DisplaySize": { "X": 4, "Y": 4 },
+            "CollisionHeight": 1
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 10,
+      "Cost": 1800,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.barfurniture/Home Bar"
+      }
+   },
+    {
+      "$ItemType": "Furniture",
+      "ID": "Sandwich Board Sign",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "assets/chalkboard.png:0",
+            "DisplaySize": { "X": 1, "Y": 2 },
+            "CollisionHeight": 1
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 10,
+      "Cost": 400,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.barfurniture/Sandwich Board Sign"
+      }
+   },
+    {
+      "$ItemType": "Furniture",
+      "ID": "Bar Sign",
+      "Type": "Painting",
+      "Configurations": [
+         {
+            "Texture": "assets/bar_sign.png:0",
+            "DisplaySize": { "X": 3, "Y": 2 },
+            "CollisionHeight": 2
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 10,
+      "Cost": 500,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.barfurniture/Bar Sign"
+      }
+   },
+    {
+      "$ItemType": "Furniture",
+      "ID": "Cafe Sign",
+      "Type": "Painting",
+      "Configurations": [
+         {
+            "Texture": "assets/cafe_sign.png:0",
+            "DisplaySize": { "X": 3, "Y": 2 },
+            "CollisionHeight": 2
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 10,
+      "Cost": 500,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.barfurniture/Cafe Sign"
+      }
+   },
+    {
+      "$ItemType": "Furniture",
+      "ID": "Tea Set",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "assets/tea_set.png:0",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 10,
+      "Cost": 300,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.barfurniture/Tea Set"
+      }
+   },
+    {
+      "$ItemType": "Furniture",
+      "ID": "Decanter",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "assets/decanter.png:0",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 10,
+      "Cost": 300,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.barfurniture/Decanter"
+      }
+   },
+    {
+      "$ItemType": "Furniture",
+      "ID": "Iced Champagne Bucket",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "assets/champagne_bucket.png:0",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 10,
+      "Cost": 400,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.barfurniture/Iced Champagne Bucket"
+      }
+   },
+    {
+      "$ItemType": "Furniture",
+      "ID": "Dirty Dish Bin",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "assets/dish_bin.png:0",
+            "DisplaySize": { "X": 2, "Y": 1 },
+            "CollisionHeight": 1
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 10,
+      "Cost": 200,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.barfurniture/Dirty Dish Bin"
+      }
+   },
+    {
+      "$ItemType": "Furniture",
+      "ID": "Beer Taps",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "assets/taps.png:0",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         },
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 10,
+      "Cost": 400,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.barfurniture/Beer Taps"
+      }
+   },
+]
