@@ -351,4 +351,27 @@
          "Value": "staramy.barfurniture/Beer Taps"
       }
    },
+    {
+      "$ItemType": "Furniture",
+      "ID": "Grape Table",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "assets/table.png",
+            "DisplaySize": { "X": 1, "Y": 2 },
+            "CollisionHeight": 1
+         },
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 10,
+      "Cost": 250,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.barfurniture/Grape Table"
+      }
+   },
 ]
